@@ -295,3 +295,30 @@ O pacote `lucide-react` v1.17.0 não exporta `Instagram`. Todas as ocorrências 
 ## Resumo Executivo
 
 Site da Vital Engenharia e Assessoria: projeto Next.js 16 com 27 páginas estáticas (home, 5 serviços, 15 artigos de blog sobre CAIXA, contato, sobre). Durante a sessão foi criada a página de Contato (estava ausente), corrigido erro de build do ícone Instagram no lucide-react v1.17.0 (substituído por Globe), aumentado e melhorado o carrossel de depoimentos (6 itens com auto-play e fade), e documentado o prompt completo do projeto. O build está limpo e o projeto roda com `pnpm dev`.
+
+---
+
+## Sessão 2 — 18/07/2026
+
+### 1. Inicialização do repositório Git e push para GitHub
+
+**Arquivo criado:** `.git/`
+
+- Inicializado repositório Git com `git init`
+- Branch renomeada para `main`
+- Commit inicial com todos os 51 arquivos do projeto (7374 inserções)
+- Remote adicionado: `https://github.com/Henrique-Vital/vital-engenharia-assessoria.git`
+- Push realizado com sucesso
+
+### 2. Criação do README.md
+
+**Arquivo criado:** `README.md`
+
+- Descrição completa do projeto (stack, funcionalidades, scripts)
+- Push para o GitHub
+
+### 3. Atualização do resumo.md
+
+**Arquivo modificado:** `resumo.md`
+
+- Documentação desta sessão
