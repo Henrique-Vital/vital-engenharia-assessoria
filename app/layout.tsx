@@ -8,14 +8,36 @@ import './globals.css'
 
 const _inter = Inter({ subsets: ['latin'] })
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : 'https://www.vitalassessoria.com.br')
+
+const siteDescription =
+  'Projetos arquitetônicos, regularização de imóveis, assessoria legal, Habite-se e financiamento imobiliário CAIXA para pessoa jurídica em São José dos Campos — SP.'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  applicationName: 'Vital Engenharia e Assessoria',
   title: {
     default: 'Vital Engenharia e Assessoria | Projetos, Regularização e Financiamento CAIXA',
     template: '%s | Vital Engenharia e Assessoria',
   },
-  description:
-    'Projetos arquitetônicos, regularização de imóveis, assessoria legal, Habite-se e financiamento imobiliário CAIXA para pessoa jurídica em São José dos Campos — SP.',
+  description: siteDescription,
   generator: 'v0.app',
+  openGraph: {
+    type: 'website',
+    locale: 'pt_BR',
+    siteName: 'Vital Engenharia e Assessoria',
+    title: 'Vital Engenharia e Assessoria | Projetos, Regularização e Financiamento CAIXA',
+    description: siteDescription,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Vital Engenharia e Assessoria | Projetos, Regularização e Financiamento CAIXA',
+    description: siteDescription,
+  },
 }
 
 export const viewport: Viewport = {

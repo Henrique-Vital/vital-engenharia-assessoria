@@ -64,7 +64,7 @@
 - Formulário de contato completo
 - WhatsApp direto
 - Telefone: (12) 99608-8779
-- Email: contato@amandavital.com.br
+- Email: amanda.vital@vitalassessoria.com.br
 - Instagram: @a.amandavital
 - Endereço (se houver)
 - Google Maps incorporado

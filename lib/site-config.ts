@@ -4,7 +4,7 @@ export const siteConfig = {
   location: "São José dos Campos — SP",
   phone: "(12) 99608-8779",
   phoneRaw: "5512996088779",
-  email: "contato@amandavital.com.br",
+  email: "amanda.vital@vitalassessoria.com.br",
   instagram: "@a.amandavital",
   instagramUrl: "https://instagram.com/a.amandavital",
 }
